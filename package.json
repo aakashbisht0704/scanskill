@@ -1,0 +1,65 @@
+{
+  "name": "scanskill",
+  "version": "0.0.1",
+  "description": "Initialize AI coding context for any project - detect stack and generate skills.md for Cursor, VS Code, Antigravity and more",
+  "main": "dist/cli.js",
+  "bin": {
+    "scanskill": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo would you rather have unlimited bacon but no tests OR TESTS UNLIMITED TESTS but no tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aakashbisht0704/skillscan.git"
+  },
+  "keywords": [
+    "ai",
+    "cli",
+    "devtools",
+    "dev-tools",
+    "developertools",
+    "developer-tools",
+    "cursor",
+    "vscode",
+    "ai-coding",
+    "code-generation",
+    "vibecoding",
+    "aicoding",
+    "vibe-coding",
+    "code",
+    "project-generation",
+    "tech-stack",
+    "stack-detection",
+    "context",
+    "skills",
+    "markdown",
+    "react",
+    "nextjs",
+    "reactnative",
+    "react-native",
+    "flutter",
+    "web-dev",
+    "android-dev",
+    "android",
+    "mobile",
+    "ios",
+    "website",
+    "development"
+  ],
+  "author": "Aakash Bisht <aakashbisht1204@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aakashbisht0704/skillscan/issues"
+  },
+  "homepage": "https://github.com/aakashbisht0704/skillscan#readme",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "typescript": "^5.9.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
