@@ -4,8 +4,9 @@
     // File Layout
     "rootDir": "src",
     "outDir": "dist",
-    "module": "commonjs",
-    "target": "es2020",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "es2022",
     "strict": true,
     "esModuleInterop": true
   }

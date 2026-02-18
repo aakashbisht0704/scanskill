@@ -7,7 +7,8 @@
     "scanskill": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && npm run copy-templates",
+    "copy-templates": "node -e \"const fs = require('fs'); const path = require('path'); const src = 'src/templates'; const dest = 'dist/templates'; fs.cpSync(src, dest, { recursive: true });\"",
     "prepublishOnly": "npm run build",
     "test": "echo would you rather have unlimited bacon but no tests OR TESTS UNLIMITED TESTS but no tests"
   },
@@ -15,6 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/aakashbisht0704/scanskill.git"
   },
+  "type": "module",
   "keywords": [
     "ai",
     "cli",
