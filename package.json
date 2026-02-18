@@ -1,6 +1,6 @@
 {
   "name": "scanskill",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Initialize AI coding context for any project - detect stack and generate skills.md for Cursor, VS Code, Antigravity and more",
   "main": "dist/cli.js",
   "bin": {
