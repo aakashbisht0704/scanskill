@@ -37,16 +37,16 @@ export async function writeSkills(root: string) {
 
   const templateName = TEMPLATE_MAP[framework];
   const templatePath = path.join(TEMPLATE_DIR, templateName);
-  const outputPath = path.join(root, "skills.md");
+  const outputPath = path.join(root, "SKILL.md");
 
   // prevent overwrite
   if (await fileExists(outputPath)) {
-    console.log("skills.md already exists. Delete it or use --force (coming soon).");
+    console.log("SKILL.md already exists. Delete it or use --force (coming soon).");
     return;
   }
 
   const template = await fs.readFile(templatePath, "utf-8");
   await fs.writeFile(outputPath, template);
 
-  console.log(`skills.md created for ${framework} project`);
+  console.log(`SKILL.md created for ${framework} project`);
 }
